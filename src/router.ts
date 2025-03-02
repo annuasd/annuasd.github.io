@@ -1,9 +1,16 @@
 import { createMemoryHistory, createRouter } from 'vue-router'
+import { articlesRouters } from './lib/utils'
 
-import HelloWorldVue from './components/HelloWorld.vue'
 
 const routes = [
-  { path: '/Hello', component: HelloWorldVue },
+  { path: '/', component:  () => import('./components/Home.vue') },
+  { 
+    path: '/Blog/:id', 
+    component: () => import('./components/BlogView.vue'),
+    props: true,
+    children:articlesRouters
+
+  },
 ]
 
 export const router = createRouter({
