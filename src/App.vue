@@ -5,7 +5,7 @@
     <div class="left-panel">
       <!-- 标题区域 -->
       <div class="header-box">
-        <h1 class="title-text">技术博客</h1>
+        <h1 class="title-text">yibo🐠's blog</h1>
       </div>
       
       <!-- 目录导航 -->
@@ -47,7 +47,7 @@ const navItems = ref([
 
 // 方法
 const handleNavClick = (item:any) => {
-  console.log('导航点击:', item.path)
+  router.push(item.path)
 }
 
 </script>
@@ -56,7 +56,7 @@ const handleNavClick = (item:any) => {
 .main-container {
   height:100vh;
   display: flex;
-  overflow: scroll;
+  overflow: hidden;
   background: #020c1b;
 }
 
@@ -65,11 +65,14 @@ const handleNavClick = (item:any) => {
   padding: 2rem;
   background: white;
   border-right: 1px solid #ede4ec;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .right-panel {
   flex: 1;
   padding: 2rem;
+  overflow-y: auto;
 }
 
 .header-box {
@@ -110,15 +113,4 @@ const handleNavClick = (item:any) => {
 }
 
 
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column;
-  }
-  
-  .left-panel {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid #e4e7ed;
-  }
-}
 </style>
