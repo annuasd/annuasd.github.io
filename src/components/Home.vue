@@ -5,7 +5,7 @@
       <h1 class="hero-title">
         <span class="gradient-text">yibo🐠's Blog</span>
       </h1>
-      <p class="hero-subtitle">想要快乐的吃吃喝喝 and coding</p>
+      <p class="hero-subtitle">eating sleeping coding</p>
     </div>
 
     <!-- 文章展示区 -->
