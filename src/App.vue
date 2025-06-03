@@ -61,7 +61,7 @@ const handleNavClick = (item:any) => {
 }
 
 .left-panel {
-  width: 280px;
+  width: 20vw;
   padding: 2rem;
   background: white;
   border-right: 1px solid #ede4ec;
