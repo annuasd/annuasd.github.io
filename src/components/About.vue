@@ -109,6 +109,7 @@
 }
 
 .edu-year {
+  margin-left: 1rem;
   /* 背景使用品牌蓝色 */
   background-color: #03386d;
   color: rgb(202, 199, 199);
