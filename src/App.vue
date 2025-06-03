@@ -61,8 +61,8 @@ const handleNavClick = (item:any) => {
 }
 
 .left-panel {
-  width: 20vw;
-  padding: 2rem;
+  width: 15vw;
+  padding: 1rem;
   background: white;
   border-right: 1px solid #ede4ec;
   height: 100vh;
@@ -88,7 +88,7 @@ const handleNavClick = (item:any) => {
 
 .nav-box {
   background: #f8f9fa;
-  border-radius: 8px;
+  border-radius: 1px;
   padding: 1rem;
 }
 
