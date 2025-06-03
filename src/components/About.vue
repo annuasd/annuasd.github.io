@@ -161,7 +161,7 @@
 }
 
 .poem-line {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   line-height: 2.2;
   letter-spacing: 1px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.5);
