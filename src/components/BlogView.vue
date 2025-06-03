@@ -24,9 +24,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useRouter } from 'vue-router'
 import { articles, articlesRouters } from '../lib/utils';
-const router = useRouter()
 const props = defineProps<{id:string}>();
 const articlId = Number(props.id)
 

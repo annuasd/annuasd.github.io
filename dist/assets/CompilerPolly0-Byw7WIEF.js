@@ -1,0 +1,1 @@
+import{_ as s,c as t,b as o,o as l}from"./index-LaXNR2sQ.js";const r={},c={class:"article"};function n(a,e){return l(),t("div",c,e[0]||(e[0]=[o("h1",null,"Poly0",-1),o("h1",null,"你好 这是第一篇文章",-1)]))}const i=s(r,[["render",n]]);export{i as default};
